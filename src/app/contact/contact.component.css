@@ -1,0 +1,19 @@
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.social a:hover{
+    transform: translateY(4px);
+}
+
+
+h2{
+    color: rgb(84, 164, 218);
+
+}
+
+.container{
+    margin-bottom: 50px;
+}

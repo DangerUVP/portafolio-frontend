@@ -1,0 +1,26 @@
+<div class="seccion">
+
+    <div class="foto">
+      <img src="foto.webp" alt="imagen-personal" srcset="">
+    </div>
+    <div class="content">
+
+        <div class="recent-roles">
+            <h3>Recen Roles</h3>
+            <p class="text-wrap">{{rol}}</p>
+        </div>
+
+        <div class="upcoming-projects">
+            <h3>Upcoming Projects</h3>
+            
+            <p>{{upProjects}}</p>
+            <ul>
+                @for (project of lstProjects; track $index) {
+                    <li>{{project}}</li>
+                }
+            </ul>
+        </div>
+
+    </div>
+  </div>
+  

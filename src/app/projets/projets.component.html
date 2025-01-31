@@ -1,0 +1,17 @@
+ 
+<h2 style="text-align: center;color: rgb(84, 164, 218);">Projects</h2>
+
+<div class="projects">
+  
+  @for(project of lstProjectos; track $index){
+
+    <div class="card" style="width: 15rem; height: 17rem;">
+      <div class="img-cont"></div>
+      <div class="card-body">
+        <h5 class="card-title">{{project.nombre}}</h5>
+        <p class="card-text">{{project.descripcion}}</p>
+      </div>
+    </div>
+  }
+
+</div>

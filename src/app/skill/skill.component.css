@@ -1,0 +1,29 @@
+.cont{
+    background-color: rgb(84, 164, 218);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.cont h2{
+    font-size: 22px;
+    
+}
+
+.cont:hover{
+    transform: translateY(4px);
+    background-color: rgb(14, 62, 94);
+    color: white;
+    cursor: default;
+}
+
+
+.container{
+    margin-bottom: 100px;
+}
+.container h3{
+    color: rgb(84, 164, 218);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
