@@ -1,30 +1,33 @@
-.seccion{
+
+.container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
 }
-
-img{
-    width: 90%;
-    border-radius: 30%;
-}
-
-.content{
-    /* background-color: red; */
-    width: 50%;
+.foto{
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px; /* Alto del contenedor */
+    background-image: url('../../../public/danger/danger-red.jpg');
+    background-size: cover; /* Cubre todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    line-height: 500px;
+    color: white;
 }
 
-
-p{
-}
-.recent-roles{
-    /* background-color: cyan; */
-    width: 70%;
+.info{
+    color: #413C58;
 }
 
-.upcoming-projects{
-    width: 70%;
-
+.cont-p{
+    font-size: 20px;
+    width: 600px;
+    margin-top: 50px;
 }

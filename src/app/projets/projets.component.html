@@ -8,14 +8,22 @@
      @for(project of lstProjectos; track $index){
    
        <div class="card" style="width: 15rem; height: 17rem;">
-         <div class="img-cont"></div>
+
+         <div class="img-cont"><img [src]="project.logo" [alt]="project.nombre" srcset=""></div>
          <div class="card-body">
            <h5 class="card-title">{{project.nombre}}</h5>
            <p class="card-text">{{project.descripcion}}</p>
+           <div class="techs">
+            <img src="skills/angular.png" alt="" width="20px" srcset="">
+            <img src="skills/spring.png" width="20px" alt="">
+            <img src="skills/sql.png" width="20px" alt="">
+
+           </div>
          </div>
+
        </div>
      }
-     <a href="#" class="align-content-center">Ver más</a>
+     <a  class="align-content-center" [routerLink]="['/projects']">Ver más</a>
    
    </div>
  </div>

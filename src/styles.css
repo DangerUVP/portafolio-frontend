@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 .section-title{
-    /* color: #383350; */
     color: #0D5C63;
     margin-bottom: 40px;
     font-weight: bold;
@@ -11,4 +10,8 @@
     color: #247B7B;
     margin-bottom: 10px;
 
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
 }

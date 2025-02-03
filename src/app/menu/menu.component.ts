@@ -20,7 +20,6 @@ export class MenuComponent {
 
   convert(){
     this.titleLetters = this.title.split("");
-    console.log(this.titleLetters);
     
   }
 }

@@ -3,7 +3,7 @@
 
 
     <div class="conten-name">
-      <h1 class="title-danger">Danger</h1>
+      <h1 class="title-danger" [routerLink]="['home']">Danger</h1>
       @for (letter of titleLetters; track $index) {
   
         @if (letter == " ") {
@@ -21,10 +21,7 @@
           <a class="nav-link" [routerLink]="['home']">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" >Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" >Contact</a>
+          <a class="nav-link" [routerLink]="['projects']">Projects</a>
         </li>
     
       </ul>

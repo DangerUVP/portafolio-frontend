@@ -9,9 +9,9 @@ import { Component } from '@angular/core';
 })
 export class SeccionComponent {
 
-  rol = "Actualmene me encuentro trabajando como Product Owiner para una organizacion alemana, cuya principal actividad es el desarrollo de software cooporativo."
+  rol = "My name is Danger, I love to code and create software."
 
-  upProjects = "Hago parte de un grupo de desarrollo llamado TimeRoom, en el cual se tiene planificado la implementación de los siguientes proyectos."
+  upProjects = "I'm a TimeRoom's member which is a software develop organization  and we currently have planned to implements the following projects."
 
 
   lstProjects =[

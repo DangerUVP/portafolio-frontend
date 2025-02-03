@@ -1,26 +1,27 @@
-<div class="seccion container">
 
-    <div class="foto">
-      <img src="foto.webp" alt="imagen-personal" srcset="">
+<div class="container">
+
+    <div class="foto"></div>
+
+
+    <div class="cont-p">
+
+        <h1 class="info">About me</h1>
+        <p class="section-subtitle">{{rol}}</p>
+
+
+        <h1 class="info">Upcoming Projects</h1>
+
+        <p class="section-subtitle">{{upProjects}}</p>
+        <ul>
+            @for (project of lstProjects; track $index) {
+            <li class="section-subtitle">{{project}}</li>
+            }
+        </ul>
+
+
     </div>
-    <div class="content">
 
-        <div class="recent-roles">
-            <h3 class="section-subtitle">Recen Roles</h3>
-            <p class="text-wrap">{{rol}}</p>
-        </div>
 
-        <div class="upcoming-projects my-4">
-            <h3 class="section-subtitle">Upcoming Projects</h3>
-            
-            <p>{{upProjects}}</p>
-            <ul>
-                @for (project of lstProjects; track $index) {
-                    <li>{{project}}</li>
-                }
-            </ul>
-        </div>
 
-    </div>
-  </div>
-  
+</div>
