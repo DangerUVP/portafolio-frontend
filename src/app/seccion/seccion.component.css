@@ -20,6 +20,7 @@
     align-items: center;
     line-height: 500px;
     color: white;
+    margin-right: 30px;
 }
 
 .info{
@@ -30,4 +31,32 @@
     font-size: 20px;
     width: 600px;
     margin-top: 50px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .cont-p{
+        width: 50%;
+    }
+
+    .foto{
+        width: 70%;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .cont-p{
+        width: 70%;
+
+    }
+
+    .foto{
+        width: 70%;
+
+    }
+
 }
