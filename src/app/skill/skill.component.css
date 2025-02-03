@@ -1,29 +1,33 @@
 .cont{
-    background-color: rgb(84, 164, 218);
+    /* background-color: rgb(191, 212, 226); */
+    /* background-color: #A3C4BC; */
+    border: 1px solid #BFD7B5;   
+    
     border-radius: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
-}
-.cont h2{
-    font-size: 22px;
-    
+    margin-bottom: 10px;
 }
 
+
 .cont:hover{
-    transform: translateY(4px);
-    background-color: rgb(14, 62, 94);
+    /* transform: translateY(4px); */
+    /* background-color: rgb(14, 62, 94); */
+    background-color: #413C58;
     color: white;
     cursor: default;
+    box-shadow: 5px 5px 5px #A3C4BC;
 }
 
 
 .container{
     margin-bottom: 100px;
 }
-.container h3{
-    color: rgb(84, 164, 218);
-    text-align: center;
-    margin-bottom: 40px;
 
+
+
+
+.skills-logo{
+    width: 30px;
 }

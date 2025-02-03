@@ -4,15 +4,15 @@
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: 60px;
+    padding: 20px;
 }
 
 .card{
     margin-right: 20px;
     margin-top: 10px;
 }
-
 .card:hover{
-    box-shadow: 10px 10px 10px rgb(102, 162, 218);
+    box-shadow: 10px 10px 10px   #BFD7B5;
     transform: translateY(4px);
     cursor: pointer;
 }

@@ -1,46 +1,10 @@
+<div class="content">
 
-<div class="content-menu align-content-center">
-
-
-  <div class="conten-name">
-    <h1 class="title-danger">Danger</h1>
-    @for (letter of titleLetters; track $index) {
-
-      @if (letter == " ") {
-        <span class="danger">&nbsp;</span>
-      }@else {
-    
-        <h6 class="danger">{{letter}}</h6>
-      }
-    }
-  </div>
-
-  
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['home']">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['projects']">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="'contact'">Contact</a>
-      </li>
-  
-    </ul>
-
-</div>
-
-
-<!-- <div class="content-page"> -->
-
-  
+    <app-menu></app-menu>
     <app-seccion></app-seccion>
     <app-skill></app-skill>
     <app-projets></app-projets>
     <app-contact></app-contact>
-
-<!-- </div> -->
-
-
-  
+    <app-footer></app-footer>
+    
+</div>

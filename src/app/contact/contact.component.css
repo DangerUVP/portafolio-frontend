@@ -1,7 +1,9 @@
 .social{
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 150px;
+
+    padding-bottom: 40px;
 }
 
 .social a:hover{
@@ -9,11 +11,5 @@
 }
 
 
-h2{
-    color: rgb(84, 164, 218);
 
-}
 
-.container{
-    margin-bottom: 50px;
-}
