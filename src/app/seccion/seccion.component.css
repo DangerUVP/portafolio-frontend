@@ -37,12 +37,13 @@
 
 @media (max-width: 768px) {
     .cont-p{
-        width: 50%;
+        width: 90%;
+        text-align: center;
     }
 
     .foto{
-        width: 70%;
-
+        width: 90%;
+        
     }
 
 }
@@ -51,12 +52,12 @@
 
     .cont-p{
         width: 70%;
+        text-align: center;
 
     }
 
     .foto{
-        width: 70%;
-
+        width: 90%;
     }
 
 }

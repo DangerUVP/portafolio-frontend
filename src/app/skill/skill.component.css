@@ -33,3 +33,28 @@
     width: 30px;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+    }
+    .skill-cont{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .container{
+        display: flex;
+    }
+    .skill-cont{
+        width: 90%;
+    }
+
+    .col{
+        margin-bottom: 20px;
+
+    }
+}

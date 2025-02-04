@@ -53,6 +53,7 @@ h1:hover
     cursor: default;
 }
 
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .content-menu{
