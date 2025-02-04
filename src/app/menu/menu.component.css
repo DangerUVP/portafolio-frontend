@@ -60,7 +60,9 @@ h1:hover
         flex-direction: column;
         height: auto;
     }
-
+    .nav{
+        display: none;
+    }
 
 
 }
@@ -69,8 +71,10 @@ h1:hover
 
     .content-menu{
         flex-direction: column;
-        height: auto;
 
+    }
+    .option-menu{
+        display: none;
     }
 
 }
